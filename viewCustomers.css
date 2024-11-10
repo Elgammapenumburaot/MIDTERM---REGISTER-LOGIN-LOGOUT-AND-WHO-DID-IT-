@@ -1,0 +1,143 @@
+/* General body styling */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f0f2f5; /* Light Facebook-like background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('images/wallpaper.png'); /* Background image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Main container for the page */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header section styling */
+h3, h4 {
+    color: #1877f2;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Form Container Styling */
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Form Input Styling */
+.form-container input[type="text"],
+.form-container input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    background-color: #f5f6f7;
+    font-size: 1em;
+}
+
+/* Submit Button Styling */
+.form-container input[type="submit"] {
+    width: auto;
+    padding: 12px 20px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #145dbf;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #dddfe2;
+    padding: 12px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+th {
+    background-color: #f0f2f5; /* Facebook header background */
+    color: #1877f2; /* Facebook blue */
+    font-weight: 600;
+}
+
+td {
+    background-color: #fff;
+}
+
+tr:hover {
+    background-color: #e9eff3; /* Light hover effect */
+}
+
+/* Link Styling */
+a {
+    color: #1877f2; /* Facebook blue */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Back to Home Button */
+a.back-to-home {
+    background-color: #1877f2;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+a.back-to-home:hover {
+    background-color: #145dbf;
+}

@@ -1,0 +1,317 @@
+/* General Styles */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f0f2f5; /* Light Facebook-like background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('images/wallpaper.png'); /* Background image */
+    background-size: cover;
+    background-position: center;
+}
+
+h3, h4 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Back Button Styles */
+a.back-home {
+    display: block;
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 20px;
+    background-color: red; /* Red background */
+    color: rgb(151, 32, 32); /* White text */
+    padding: 10px 20px; /* Spacing */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none;
+    width: 200px;
+    margin: 20px auto;
+}
+
+a.back-home:hover {
+    background-color: #ff0000e1; /* Darker red on hover */
+}
+
+/* Form Styles */
+.form-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.form-container h4 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.form-container input {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.form-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    font-size: 1em;
+}
+
+th {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+td {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+td a {
+    color: #041930;
+    margin-right: 10px;
+}
+
+td a:hover {
+    color: #0056b3;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Error Message */
+p[style="color: red;"] {
+    color: red;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* General Layout */
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+
+/*index
+
+/* General Styles */
+body {
+    font-family: "Arial", sans-serif;
+    background-image: url('images/wallpaper.png'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h3, h1, h2 {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Form Styles */
+form {
+    font-family: "Arial", sans-serif;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 8px;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form p {
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+form label {
+    font-size: 1.1em;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"], form input[type="email"], form input[type="datetime-local"] {
+    font-family: "Arial", sans-serif;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin: 8px 0 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    font-family: "Arial", sans-serif;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Greeting */
+.greeting {
+    font-family: "Arial", sans-serif;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 60%;
+}
+
+.logout-link {
+    color: #8b1a11;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.logout-link:hover {
+    color: #d32f2f;
+}
+
+/* Table Styles */
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    font-size: 1em;
+}
+
+th {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+td {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+td a {
+    color: #007BFF;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+td a:hover {
+    color: #2de03c;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Button Styles */
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+    }
+    .greeting {
+        width: 90%;
+    }
+    table {
+        width: 100%;
+    }
+}
